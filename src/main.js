@@ -5,9 +5,7 @@ const λ = ({raw}, ...subs) => {
 
   const evaluate = new Function('___subs', '___args', `return (${expr});`)
 
-  return (...args) => {
-    return evaluate(subs, args)
-  }
+  return (...args) => evaluate(subs, args)
 }
 
 export default λ

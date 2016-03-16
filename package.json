@@ -1,6 +1,6 @@
 {
   "name": "lambdex",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "A shorter lambda syntax for ES6",
   "main": "lib/main.js",
   "scripts": {
