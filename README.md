@@ -16,7 +16,7 @@ Instead of defining a function by declaring names for all of its parameters and 
 
 A lambdex expression doesn't close over the variables in its scope, but you can insert values from the outside world into a lambdex expression using `${...}` notation. For example,
 ```javascript
-const field = 'x', n = 4
+const field = 'x'
 [{x: 8}, {x: 3}, {x: 9}].map(λ`#0[${field}]`)
 // evaluates to [8, 3, 9]
 ```
