@@ -2,9 +2,9 @@
   "name": "lambdex",
   "version": "0.9.3",
   "description": "A shorter lambda syntax for ES6",
-  "main": "dist/index.js",
+  "main": "dist.js",
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "babel src --out-file dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
